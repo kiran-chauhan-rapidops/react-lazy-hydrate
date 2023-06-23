@@ -1,7 +1,6 @@
 
 node_modules
 coverage
-dist
 .idea
 *.log
 logs
@@ -10,4 +9,3 @@ tmp
 temp
 .nyc_output
 .vscode
-lib
