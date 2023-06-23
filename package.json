@@ -4,8 +4,6 @@
   "description": "React component to do progressive/partial hydration",
   "main": "lib/index.js",
   "scripts": {
-    "postinstall": "yarn outdated",
-    "prepublish": "yarn build",
     "build": "npx babel src --out-dir lib",
     "test": "echo 'TODO: Add tests!'",
     "lint": "eslint src/**/*.jsx",
@@ -48,12 +46,12 @@
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "peerDependencies": {
     "prop-types": "^15.7.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
